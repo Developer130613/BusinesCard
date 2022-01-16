@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Lexend+Deca"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <section class="header">
+      <div class="header__card">
+        <div class="col-1-of-2">
+          <div class="header__image">
+            <picture>
+              <source
+                media="(max-width: 600px)"
+                srcset="images/image-header-mobile.jpg"
+                alt="img"
+                class="image"
+              />
+              <img
+                src="images/image-header-desktop.jpg"
+                alt="img"
+                class="image"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="col-1-of-2 text">
+          <h1 class="header__heading">
+            Get <span class="header__pink">insights</span> that help your
+            business grow.
+          </h1>
+          <p class="header__para">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+
+          <div>
+            <div class="data">
+              <span class="data__head">10k+</span><br /><span class="data__text"
+                >companies</span
+              >
+            </div>
+            <div class="data">
+              <span class="data__head">314</span><br /><span class="data__text"
+                >templates</span
+              >
+            </div>
+            <div class="data">
+              <span class="data__head">12m+</span><br /><span class="data__text"
+                >queries</span
+              >
+            </div>
+          </div>
+          <!-- <table class="header__table">
+            <thead>
+              <th>10k+</th>
+              <th>314</th>
+              <th>12m+</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>companies</td>
+                <td>templates</td>
+                <td>queries</td>
+              </tr>
+            </tbody>
+          </table> -->
+        </div>
+      </div>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Bhupesh</a>.
+    </div>
+  </body>
+</html>
